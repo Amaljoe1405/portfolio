@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="type/css">
+    <style>
+        .container{
+            width: 1500px;
+            height: 80px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        .logo{
+            margin-left: 90px;
+            color: white;
+            font-size: 50px;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+        }
+        nav ul li{
+             margin-right: 80px;
+             cursor: pointer;
+             color: #555;
+             font-weight: bold;
+             font-size: 20px;
+        }
+        nav ul li:hover{
+            color: red;
+        }
+        .content{
+            width: 1500px;
+            height: 645px;
+            margin: auto;
+            display: flex;
+            margin-top: 20px;
+            
+        }
+        body{
+            margin: 0px;
+        }
+        .main{
+            background-image: url('./banner.jpg');
+        }
+        .image{
+            width: 500px;
+        }
+        .image img{
+            width: 285px;
+            height: 330px;
+            margin-top: 120px;
+            border-radius: 14%;
+            box-shadow: 0px 0px 10px 2px #03a;
+            margin-left: 50px;
+        }
+        .data{
+            padding-top: 165px;
+            padding-left: 50px;
+            width: 50%;
+            float: left;
+        }
+        .data h3{
+            font-weight: 400;
+            color: rgb(255, 209, 209);
+            margin-top: -10px;
+
+        }
+        .data h1{
+            font-size: 60px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            margin-top: 30px;
+        }
+        .data p{
+            color: rgb(227, 227, 227);
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: 35px;
+        }
+        span{
+            color: rgb(0, 0, 0);
+        }
+        .link{
+            color: white;
+        }
+        
+        .link:hover{
+            color: rgb(0, 0, 0);
+        }
+        
+        .w3_agile-contact form {
+            padding: 3em;
+            width: 60%;
+            margin: 3em auto;
+            background: url('./1.jpg') center no-repeat;
+            border: 1px solid #d2cece;
+            padding-bottom: 5px;
+
+        }
+        .w3_agile-contact input.name {
+            padding: 0.8em 0.7em;
+            width: 100%;
+            color: #fff;
+            font-size: 1.1em;
+            background: transparent;
+            border: 1px solid #ce7501;
+            outline: none;
+            
+            margin: 1em 0 0;
+            letter-spacing: 2px;
+        }
+        .w3_agile-contact input.email {
+            padding: 1em 0.8em;
+            background: transparent;
+            border: 1px solid #ce7501;
+            width: 100%;
+            color: #fff;
+            font-size: 1em;
+            outline: none;
+            margin: 1em 0;
+           
+            letter-spacing: 2px;
+        }
+        .w3_agile-contact textarea {
+            resize: none;
+            width: 100%;
+            color: #fff;
+            background: transparent;
+            border: 1px solid #ce7501;
+            font-size: 18px;
+            outline: none;
+            padding: 1em 0.7em;
+            min-height: 150px;
+          
+            letter-spacing: 2px;
+        }
+        .w3_agile-contact input[type="submit"] {
+            color: #ffffff;
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            border: none;
+            text-transform: uppercase;
+            font-weight: 500;
+            padding: 0.4em 0.5em;
+            text-decoration: none;
+            background: #ce7501;
+            margin: 1em auto;
+            
+            transition: 0.5s all;
+            -webkit-transition: 0.5s all;
+            -o-transition: 0.5s all;
+            -moz-transition: 0.5s all;
+            -ms-transition: 0.5s all;
+            width: 25%;
+            display: block;
+        }
+        .jarallax {
+            position: relative;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            padding-left: 230px;
+            padding-bottom: 45px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h1 class="logo"><span>M</span>y<span>S</span>ite</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html" class="link">Home</a></li>
+                    <li><a href="./about.html" class="link">About</a></li>
+                    <li><a href="./gallery.html" class="link">Gallery</a></li>
+                    <li><a href="./contact.html" class="link">contact Us</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <div class="content" >
+           
+                <div class="w3_agile-contact  jarallax text-center">
+					<form action="#" method="get">
+						<input type="text" placeholder="Name" name="name" class="name" required>
+						<input type="text" placeholder="Phone Number" name="phone" class="name" required>
+						<input type="email" placeholder="Email" name="email" class="email" required>
+						<textarea name="message" placeholder="Message"></textarea>
+						<input type="submit" value="send">
+					</form>
+				</div>
+                
+        
+
+        </div>
+    </div>
+</body>
+</html>
